@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="1">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100%;
+            width: 100%;
+            background-image: url('../static/style/farm.jpg');
+            background-size: cover;
+         }
+             
+        .container{
+            width: 30vw;
+            height: 50vh;
+            background-color: rgba(13, 236, 24, 0.5);
+            margin: auto;
+            border: 2px green solid;
+            border-radius: 10px;
+            margin-top: 20vh;
+        }
+
+        .table1,.table2{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 60px;
+        }
+
+        .table1{
+            margin-top: 50px;
+        }
+
+        .table2{
+            margin-top: 30px;
+        }
+
+        th,td{
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table class="table1"> 
+            <tr> 
+                <th>Temperature</th> 
+                <th>Humidity</th>  
+            </tr> 
+            <tr> 
+                <td>{{val1}}</td> 
+                <td>{{val2}}</td> 
+            </tr> 
+        </table>
+
+        <table class="table2"> 
+            <tr> 
+                <th>Soil Moisture</th> 
+                <th>Air Quality</th>  
+            </tr> 
+            <tr> 
+                <td>{{val3}}</td> 
+                <td>{{val4}}</td> 
+            </tr> 
+        </table>
+    </div>
+
+</body>
+</html>

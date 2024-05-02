@@ -1,0 +1,196 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, 
+				initial-scale=1.0"> 
+
+	<!-- Font Awesome CDN-->
+	<link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" /> 
+
+	<!-- For font family Poppins -->
+	<link rel="preconnect"
+		href="https://fonts.googleapis.com"> 
+	<link rel="preconnect"
+		href="https://fonts.gstatic.com" crossorigin> 
+	<link href= 
+"https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+		rel="stylesheet"> 
+	<title>Smart Agiculture System Services</title> 
+	<style> 
+		* { 
+			box-sizing: border-box; 
+		} 
+
+		body { 
+			font-family: 'Poppins', sans-serif; 
+			margin: 0; 
+			padding: 0; 
+			background-image: url( 
+https://www.cropin.com/hs-fs/hubfs/cropin_2021/other-resource/automation-and-robotics.jpg); 
+			background-repeat: no-repeat; 
+			background-size: cover; 
+			background-color: rgb(90, 90, 90); 
+			background-blend-mode: multiply; 
+			background-position: center; 
+			color: #fff; 
+		} 
+
+		h1, 
+		h3 { 
+			text-align: center; 
+			text-transform: uppercase; 
+		} 
+
+		h1 { 
+			position: relative; 
+			max-width: max-content; 
+			margin: 2rem auto 5rem auto; 
+		} 
+
+		h1::after { 
+			content: ""; 
+			position: absolute; 
+			width: 75%; 
+			height: 5px; 
+			background-color: lightgreen; 
+			bottom: -2rem; 
+			left: 25px; 
+		} 
+
+		i { 
+			font-size: 3rem; 
+			color: lightgreen; 
+			padding: 1rem; 
+			transition: all 0.3s linear; 
+			transform: rotate(-45deg); 
+		} 
+
+		.services-container { 
+			max-width: 1200px; 
+			margin: 0 auto; 
+			padding: 20px; 
+			display: flex; 
+			flex-wrap: wrap; 
+			justify-content: space-around; 
+		} 
+
+		.service-card { 
+			cursor: pointer; 
+			width: 300px; 
+			margin: 20px; 
+			padding: 2rem 20px 20px 20px; 
+			text-align: center; 
+			border-radius: 5px; 
+			transition: all 0.3s ease-in-out; 
+		} 
+
+		.icon-container { 
+			border: 2px solid lightgreen; 
+			transition: 0.3s linear; 
+			width: max-content; 
+			margin: 0 auto; 
+			transform: rotate(45deg); 
+		} 
+
+		.service-card:hover { 
+			box-shadow: 0 0 30px 0 lightgreen; 
+			transform: scale(1.1); 
+		} 
+
+		.service-card a { 
+			color: lightgreen; 
+			text-decoration: none; 
+		} 
+
+		@media (max-width: 768px) { 
+			.service-card { 
+				width: 100%; 
+			} 
+		} 
+	</style> 
+</head> 
+
+<body> 
+	<h1>Our Services</h1> 
+	<div class="services-container"> 
+		<div class="service-card"> 
+			<div class="icon-container"> 
+				<i class="fa-brands fa-android"></i> 
+			</div> 
+			<h3>Service 1</h3> 
+			<p>Predicting future crop needs and environmental conditions enables farmers to plan
+ahead and take preemptive measures. Machine learning models excel at making predictions
+based on historical data, improving the precision of resource applications.</p> 
+			
+		</div> 
+
+		<div class="service-card"> 
+			<div class="icon-container"> 
+				<i class="fa-brands fa-android"></i> 
+			</div> 
+			<h3>Service 2</h3> 
+			<p>Precision agriculture involves optimizing the use of
+resources like water, fertilizers, and pesticides. Machine
+learning models can fine-tune these applications, minimizing
+waste and environmental impact.
+		    </p> 
+			 
+		</div> 
+
+		<div class="service-card"> 
+			<div class="icon-container"> 
+				<i class="fa-brands fa-android"></i> 
+			</div> 
+			<h3>Service 3</h3> 
+			<p> 
+				 Identifying anomalies in environmental conditions or crop health is crucial for early
+detection of issues. Machine learning excels at recognizing deviations from normal patterns. 
+</p> 
+			
+		</div> 
+
+		<div class="service-card"> 
+			<div class="icon-container"> 
+				<i class="fa-brands fa-android"></i> 
+			</div> 
+			<h3>Service 4</h3> 
+			<p> 
+				 Monitoring the health of crops is
+essential for preventing diseases and
+optimizing yield. Machine learning can
+learn complex relationships between
+environmental factors and crop health</p> 
+			
+		</div> 
+
+		<div class="service-card"> 
+			<div class="icon-container"> 
+				<i class="fa-brands fa-android"></i> 
+			</div> 
+			<h3>Service 5</h3> 
+			<p> 
+				Agricultural conditions change over time due to various factors like climate variations
+and evolving farming practices. Machine learning models can adapt and learn from new data,
+ensuring the system remains relevant. </p> 
+			
+		</div> 
+
+		<div class="service-card"> 
+			<div class="icon-container"> 
+				<i class="fa-brands fa-android"></i> 
+			</div> 
+			<h3>Service 6</h3> 
+			<p> 
+				Machine learning enables the automation of tasks such as irrigation, fertilization, and
+pest control. This not only reduces the workload on farmers but also ensures optimal resource
+utilization.</p> 
+			
+		</div> 
+	</div> 
+</body> 
+
+</html>

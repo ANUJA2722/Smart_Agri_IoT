@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="{{url_for('static',filename='style/prdiction_css.css')}}">
+  </head>
+  <body>
+    <h4>According to your soil neutrients</h4>
+    <h4> You Should Grow -> </h4>
+    <br>
+    <br>
+    <h4>{{data}}</h4>
+    <br>
+    {%if data == "rice"%}
+        <img src='../static/style/rice.jpg'>
+    {%elif data == "maize"%}
+        <img src='../static/style/maize.jpg'>
+    {%elif data == "jute"%}
+        <img src='../static/style/jute.jpg'>
+    {%elif data == "cotton"%}
+        <img src='../static/style/cotton.jpg'>
+    {%elif data == "coconut"%}
+        <img src='../static/style/coconut.jpg'>
+    {%elif data == "papaya"%}
+        <img src='../static/style/papaya.jpg'>
+    {%elif data == "orange"%}
+        <img src='../static/style/orange.jpg'>
+    {%elif data == "apple"%}
+        <img src='../static/style/apple.jpg'>
+    {%elif data == "muskmelon"%}
+        <img src='../static/style/muskmelon.jpg'>
+    {%elif data == "watermelon"%}
+        <img src='../static/style/watermelon.jpg'>
+    {%elif data == "grapes"%}
+        <img src='../static/style/grapes.jpg'>
+    {%elif data == "mango"%}
+        <img src='../static/style/mango.jpg'>
+    {%elif data == "banana"%}
+        <img src='../static/style/banana.jpg'>
+    {%elif data == "pomegranate"%}
+        <img src='../static/style/pomegranate.jpg'>
+    {%elif data == "lentil"%}
+        <img src='../static/style/lentil.jpg'>
+    {%elif data == "blackgram"%}
+        <img src='../static/style/blackgram.jpg'>
+    {%elif data == "mungbean"%}
+        <img src='../static/style/mungbean.jpg'>
+    {%elif data == "mothbeans"%}
+        <img src='../static/style/mothbeans.jpg'>
+    {%elif data == "pigeonpeas"%}
+        <img src='../static/style/pigeonpeas.jpg'>
+    {%elif data == "kidneybeans"%}
+        <img src='../static/style/kidneybeans.jpg'>
+    {%elif data == "chickpea"%}
+        <img src='../static/style/chickpea.jpg'>
+    {%elif data == "coffee"%}
+        <img src='../static/style/coffee.jpg'>
+    {% else %}
+    {% endif %}
+  </body>
+</html>

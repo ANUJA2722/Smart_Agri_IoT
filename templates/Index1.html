@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VJTI Agrotech</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style/first.css')}}">
+</head>
+<body>
+    <form action="form1" method="post">
+  <label for="Nitrogen">Nitrogen:</label>
+  <input type="text" id="Nirogen" name="Nitrogen" min="0" max="100" placeholder="Nitrogen [Range between 0 to 100]" required>
+
+  <label for="Phosphorus">Phosphorus:</label>
+  <input type="text" id="Phosphorus" name="Phosphorus" min="0" max="100" placeholder="Phosphorus [Range between 0 to 100]" required>
+
+  <label for="Potassium">Potassium:</label>
+  <input type="text" id="Potassium" name="Potassium" min="0" max="100" placeholder="Potassium [Range between 0 to 100]" required>
+
+  
+
+  <input type="submit" id="submit" name="submit" value="Predict Your Crop">
+</form>
+
+</body>
+</html>
